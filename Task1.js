@@ -1,5 +1,5 @@
-Take input from user as password and it should be alphanumeric
-if valid allow access or deny
+//Take input from user as password and it should be alphanumeric
+//if valid allow access or deny
 
 var password = prompt("Please enter a password")
 if(password.match("^([a-zA-Z]+)([0-9]+)$")){
